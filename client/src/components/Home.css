@@ -1,0 +1,78 @@
+.homePrincipal {
+    background: #246474;
+}
+
+#titulo {
+    font-size: 40px;
+    color: rgb(238, 162, 22);
+    font-family: 'Times New Roman';
+}
+
+.containerSearchButon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;;
+    justify-content: flex-start;
+    margin: 30px 40px;
+}
+
+.actionButtonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 75px;
+}
+
+.actionButton {
+    font-weight: bolder;
+    font-size: 15px;
+    border: #eee8e8 solid 2px;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 7px;
+    background:#f8f6f6;
+}
+
+.actionButton:hover {
+    background:#cac9c9;
+    border: #b6b2b2 solid 2px;
+}
+
+.h3Build {
+    font-size: 20px;
+    color: red;
+}
+
+.cardCountry {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:black;
+    margin: auto;
+    padding: 10px;
+}
+
+.selectContainer {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+select {
+    height: 100%;
+    width: 20%;
+    padding: 4px;
+    text-shadow: 0 1px white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    background: white;
+    margin: 4px;
+    border-color: black;
+    border-width: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

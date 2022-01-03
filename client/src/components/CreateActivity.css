@@ -1,0 +1,88 @@
+.principal {
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/5e/7f/6a/vuelo-en-teotihuacan.jpg?w=1200&h=-1&s=1");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: whitesmoke;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    font-size: 17px;
+}
+
+.inputs label {
+    /* border: black solid 2px; */
+    text-align: start;
+    width: 20%;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.inputs input {
+    /* border: black solid 2px; */
+    width: 80%;
+    height: 18px;
+}
+
+.inputChange{
+    border-radius: 5px;
+}
+
+.checkboxs {
+    display: flex;
+    flex-direction: row;
+    margin: 8px
+}
+
+.checkboxs label {
+    text-align: start;
+    width: 20%;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.checkboxs .inputChange {
+    text-align: start;
+    height: 20px;
+    width: 16px;
+}
+
+.inputChange1{
+    cursor: pointer;
+}
+
+.inputs select {
+    /* border: black solid 2px; */
+    width: 80%;
+    height: 30px;
+    background: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.actionButtons {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.actionButtons button {
+    margin: 10px;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.error{
+    color:red;
+    font-weight: bold;
+}

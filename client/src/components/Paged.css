@@ -1,0 +1,20 @@
+
+.index {
+    border:steelblue solid 2px;
+    border-radius: 5px;
+    border-style:inset;
+    text-align: center;
+    margin: 4px;
+    font-size: 25px;
+    padding-left: 5px;
+    font-family:'Times New Roman', Times, serif;
+    background:rgb(118, 119, 170);
+}
+
+.index a{
+    color:white;;
+}
+.index:hover {
+    background-color:darkblue;
+    
+}

@@ -1,0 +1,25 @@
+.country{
+    text-decoration:none;
+    background:#f8f6f6;
+    border: #eee8e8 solid 2px;
+    border-radius: 8px;
+    width: 250px;
+    height: 260px;
+    flex: none;
+    margin:3px ;
+    font-style: italic;
+    color:black;
+}
+
+.country:hover{
+    background:#cac9c9;
+    border: #b6b2b2 solid 2px;
+    font-size: 19px;
+}
+
+.imgCard {
+    margin-top: 10%;
+    border-radius: 15%;
+    height: 100px;
+}
+

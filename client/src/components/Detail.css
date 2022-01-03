@@ -1,0 +1,43 @@
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("https://previews.123rf.com/images/silantiy/silantiy1407/silantiy140700011/30503908-banderas-de-diferentes-pa%C3%ADses-forman-un-fondo-transparente.jpg");
+}
+
+.countryContainer {
+    flex-direction: row;
+}
+
+.countryDetail {
+    background-color: #000000;
+    border: 1px rgb(175, 30, 30) solid;
+    border-radius: 4%;
+    margin: 2em;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    margin: 10px 0;
+    padding: 0 10px
+}
+
+.imgContainer{
+    margin-top: 10%;
+    border-radius: 15%;
+}
+
+.countryDetail label {
+    text-align: start;
+    font-style: italic;
+    color:lightcyan;
+    font-style:oblique ;
+    text-decoration: underline;
+    margin: auto;
+}
+
+.btnBuildActiviy {
+    height: 45px;
+    width: 120px;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 0 1em
+}

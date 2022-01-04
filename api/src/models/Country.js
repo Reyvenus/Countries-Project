@@ -29,7 +29,7 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER
     },
     population: {
-      type: DataTypes.INTEGER
+      type: DataTypes.STRING
     }
   },
     {timestamps: false,
